@@ -51,13 +51,13 @@ graph TD
     E --> F
     F --> G[Real-Time Audio Output]
 
-    style A fill:#f9f,stroke:#333,stroke-width:2px
-    style B fill:#bbf,stroke:#333,stroke-width:2px
-    style C fill:#fbb,stroke:#333,stroke-width:2px
-    style D fill:#bfb,stroke:#333,stroke-width:2px
-    style E fill:#bfb,stroke:#333,stroke-width:2px
-    style F fill:#fbf,stroke:#333,stroke-width:2px
-    style G fill:#fff,stroke:#333,stroke-width:2px
+    style A fill:#f9f,stroke:#333,stroke-width:2px,color:#fff
+    style B fill:#bbf,stroke:#333,stroke-width:2px,color:#fff
+    style C fill:#fbb,stroke:#333,stroke-width:2px,color:#fff
+    style D fill:#bfb,stroke:#333,stroke-width:2px,color:#000
+    style E fill:#bfb,stroke:#333,stroke-width:2px,color:#000
+    style F fill:#fbf,stroke:#333,stroke-width:2px,color:#fff
+    style G fill:#fff,stroke:#333,stroke-width:2px,color:#000
 ```
 
 1. **Visual Capture:** Real-time environmental inputs are initialized via the device camera or local mobile video stream.
